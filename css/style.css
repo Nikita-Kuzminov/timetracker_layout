@@ -105,8 +105,10 @@ body {
     margin: 0 auto;
 }
 
+/*Стили для header*/
+
 .header {
-    background-color: #3744BD;    Этим потом нужно заменить нижнюю часть
+    background-color: #3744BD;
 }
 
 .header__wrapper {
@@ -126,9 +128,95 @@ body {
     margin-right: 75px;
 }
 
+.header__item:last-child {
+    margin-right: 0;
+}
+
 .header__link {
     font-size: 18px;
     line-height: 144.2%;
     color: white;
     text-decoration: none;
+}
+
+.header__list-tool {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 46px;
+}
+
+/*Стили для Main*/
+
+main {
+    height: 100vh;
+}
+
+.main__day {
+    position: absolute;
+    width: 1296px;
+    height: 1080px;
+    background-color: red;
+}
+
+.main__time-track {
+    position: relative;
+    margin-top: 142px;
+    margin-left: 1296px;
+    width: 474px;
+    height: 363px;
+    background-color: green;
+}
+
+.main__google {
+    background-color: black;
+    width: 474px;
+    height: 655px;
+    margin-left: 1296px;
+}
+
+.main__day-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__day-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 58px;
+    margin-left: 24px;
+    color: #3744BD;
+    background: #F0F3F5;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.main__day-data-cal {
+    margin-left: 18px;
+}
+
+.main__data-select {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__data-select-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4F4F4F;
+    width: 79px;
+    height: 47px;
+    background: #F0F3F5;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-right: 228px;
+}
+
+.main__data-select-fav {
+    color: #BBBBBB;
 }
