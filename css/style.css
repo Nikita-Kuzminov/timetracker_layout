@@ -49,7 +49,7 @@ table {
     border-spacing: 0;
 }
 
-/*Шрифты*/
+/*Подключаем шрифты*/
 
 /* roboto-regular - latin */
 @font-face {
@@ -98,6 +98,7 @@ body {
     font-size: 18px;
     line-height: 144.2%;
     font-weight: normal;
+    background: #F9FAFC
 }
 
 .wrapper {
@@ -156,20 +157,23 @@ main {
     position: absolute;
     width: 1296px;
     height: 1080px;
-    background-color: red;
+    border-right-style: solid;
+    border-right-color: #E9ECF2;
+    border-right-width: 2px;
 }
 
 .main__time-track {
     position: relative;
-    margin-top: 142px;
+    margin-top: 58px;
     margin-left: 1296px;
     width: 474px;
     height: 363px;
-    background-color: green;
+    border-bottom-style: solid;
+    border-bottom-color: #E9ECF2;
+    border-bottom-width: 2px;
 }
 
 .main__google {
-    background-color: black;
     width: 474px;
     height: 655px;
     margin-left: 1296px;
@@ -189,6 +193,7 @@ main {
     width: 197px;
     height: 58px;
     margin-left: 24px;
+    margin-bottom: 50px;
     color: #3744BD;
     background: #F0F3F5;
     border-radius: 30px;
@@ -214,9 +219,21 @@ main {
     background: #F0F3F5;
     border-radius: 30px;
     font-weight: 500;
-    margin-right: 228px;
+    margin-right: 21px;
 }
 
 .main__data-select-fav {
     color: #BBBBBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79px;
+    height: 47px;
+    font-weight: 500;
+    margin-right: 131px;
+}
+
+.main__day-day-of-week {
+    display: flex;
+    flex-wrap: wrap;
 }
