@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b760b265-e9e3-4e36-92b8-9dc3b2a11c81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/svg/avatar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/svg/calendar.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -52,13 +50,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b37b9d85-d716-43f7-8767-be6fcddbda58" name="Default Changelist" comment="" />
+      <changelist id="b760b265-e9e3-4e36-92b8-9dc3b2a11c81" name="Default Changelist" comment="" />
       <created>1595939795085</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595939795085</updated>
       <workItem from="1595939796413" duration="2879000" />
       <workItem from="1596006530956" duration="2752000" />
+      <workItem from="1596102514359" duration="752000" />
+      <workItem from="1596659455266" duration="8602000" />
     </task>
     <servers />
   </component>
@@ -77,6 +77,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1596007499357" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596675883426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596675883426" />
     <state x="604" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596014641019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
