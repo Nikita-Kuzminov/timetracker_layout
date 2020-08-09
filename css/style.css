@@ -103,7 +103,7 @@ body {
 
 .wrapper {
     max-width: 1770px;
-    margin: 0 auto;
+    margin: 0 73px 0 73px;
 }
 
 /*Стили для header*/
@@ -140,6 +140,12 @@ body {
     text-decoration: none;
 }
 
+.header__link-active {
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+
 .header__list-tool {
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +157,7 @@ body {
 
 main {
     height: 100vh;
+    margin-top: 58px;
 }
 
 .main__day {
@@ -158,19 +165,21 @@ main {
     width: 1296px;
     height: 1080px;
     border-right-style: solid;
-    border-right-color: #E9ECF2;
-    border-right-width: 2px;
+    /*border-right-color: #E9ECF2;*/
+    border-right-color: black;
+
+    border-right-width: 10px;
 }
 
 .main__time-track {
     position: relative;
-    margin-top: 58px;
     margin-left: 1296px;
     width: 474px;
     height: 363px;
     border-bottom-style: solid;
-    border-bottom-color: #E9ECF2;
-    border-bottom-width: 2px;
+    /*border-bottom-color: #E9ECF2;*/
+    border-bottom-color: black;
+    border-bottom-width: 10px;
 }
 
 .main__google {
@@ -236,4 +245,17 @@ main {
 .main__day-day-of-week {
     display: flex;
     flex-wrap: wrap;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 144.2%;
+}
+
+.main__day-current-wrapper__strong {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 144.2%;
 }
