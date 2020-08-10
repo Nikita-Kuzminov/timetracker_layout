@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b760b265-e9e3-4e36-92b8-9dc3b2a11c81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/svg/download.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -44,7 +45,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.YAML" />
   </component>
   <component name="RunManager">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
@@ -73,6 +74,7 @@
       <workItem from="1596860559177" duration="3673000" />
       <workItem from="1596884909879" duration="11542000" />
       <workItem from="1596952711438" duration="549000" />
+      <workItem from="1597048246279" duration="6354000" />
     </task>
     <servers />
   </component>
@@ -111,14 +113,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596677586175" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1596952933920">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1596957266424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596952933920" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1596953515960">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596957266424" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1596955213426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1596953515960" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1596955213426" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596891751532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -127,5 +129,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596014641019" />
+    <state x="656" y="118" width="607" height="804" key="find.popup" timestamp="1597053426567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="118" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597053426567" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596957280703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596957280703" />
   </component>
 </project>

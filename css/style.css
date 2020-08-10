@@ -167,8 +167,7 @@ main {
     border-right-style: solid;
     /*border-right-color: #E9ECF2;*/
     border-right-color: black;
-
-    border-right-width: 10px;
+    border-right-width: 1px;
 }
 
 .main__time-track {
@@ -179,7 +178,7 @@ main {
     border-bottom-style: solid;
     /*border-bottom-color: #E9ECF2;*/
     border-bottom-color: black;
-    border-bottom-width: 10px;
+    border-bottom-width: 1px;
 }
 
 .main__google {
@@ -250,6 +249,7 @@ main {
     font-weight: normal;
     font-size: 24px;
     line-height: 144.2%;
+    height: 66px;
 }
 
 .main__day-current-wrapper__strong {
@@ -264,16 +264,62 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: 344px;
+    width: 1157px;
 }
 
 .main__day-progress-and-upload {
     display: flex;
     flex-wrap: wrap;
+    height: 66px;
 }
 
+.main__day-progress-time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 47px;
+    color: #BBBBBB;
+}
 
+meter {
+    width: 94px;
+}
 
+.main__day-upload-ico {
+    height: 38px;
+    width: 38px;
+    margin-right: 119px;
+}
 
+.main__day-task-info {
+    height: 86px;
+    width: 1310px;
+}
 
+.main__day-upload {
+    width: 20px;
+}
 
+.main__day-progress {
+    height: 66px;
+}
 
+.main__day-weekday-time-upload {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1157px;
+    height: 86px;
+    border-bottom-width: 1px;
+    /*border-bottom-color: #E9ECF2;*/
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+}
+
+.main__day-progress {
+    width: 140px;
+}
