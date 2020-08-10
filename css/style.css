@@ -323,3 +323,57 @@ meter {
 .main__day-progress {
     width: 140px;
 }
+
+.main__day-time-and-task {
+    width: 370px;
+    height: 86px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__day-task {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding-left: 27px;
+    width: 185px;
+    height: 86px;
+}
+
+.main__day-div-of-time {
+    width: 185px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__day-time-strong {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144.2%;
+    color: #1E1E1E;
+}
+
+.main__day-task-jrm {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 144.2%;
+
+    font-variant: small-caps;
+    color: #828282;
+}
+
+.main__day-time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144.2%;
+    color: #BBBBBB;
+}
